@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>ThreeanCompany</title>
+  <title>3ANCompany</title>
   <!-- MDB icon -->
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
@@ -173,6 +173,12 @@
     .fas {
       color: #340b38;
     }
+  
+  .card-body:hover {
+    background-color: #340b38;
+    color:white;
+  
+  }
     
   </style>
 
@@ -200,7 +206,7 @@
               <a class="nav-link" href="#about-us" data-offset="90">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"   href="booking.html" data-offset="90"  style="background-color:rgba(9, 41, 68, 0.884);">Book Now</a>
+              <a class="nav-link"   href="booking.html" data-offset="90"  style="background-color:rgba(9, 41, 68, 0.884); width: 107px;">Book Now</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="gallery.html" data-offset="90">Gallery</a>
@@ -243,7 +249,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="">
-                <i class="fab fa-whatsapp light-green-text-2"></i>
+                <i class="fa fa-envelope light-green-text-2"></i>
               </a>
             </li>
 
@@ -349,16 +355,15 @@
         <div class="col-md-6 mb-4">
 
           <!-- Card -->
-          <a href="#!" class="card hoverable">
+          <a href="#!" class=" group card hoverable" style="color:black">
 
             <!-- Card content -->
-            <div class="card-body m-4">
+            <div class="card-body m-4" id="vision-card" style="box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);">
 
               <div class="media">
                 <div class="media-body">
-                  <i class="fas-light fa-diploma"></i>
-                  <h4 class="dark-grey-text mb-3  text-center font-weight-bold">Our Vision</h4>
-                  <p class="font-weight-light text-dark mb-0" style="font-size: 1.2em;">We aspire to be the leading car rental company providing excellence services to range of customers in a safe and comforting manner</p>
+                  <h4 class=" mb-3  text-center font-weight-bold  " id="vision-header">Our Vision</h4>
+                  <p class="font-weight-light  mb-0 " style="font-size: 1.2em;" id="vision-text">We aspire to be the leading car rental company providing excellence services to range of customers in a safe and comforting manner</p>
                 </div>
               </div>
 
@@ -371,18 +376,18 @@
         <!--First column-->
 
         <!--Second column-->
-        <div class="col-md-6 mb-4">
+        <div class="col-md-6 mb-4" >
 
           <!-- Card -->
-          <a href="#!" class="card hoverable">
+          <a href="#!" class="card hoverable"style="color:black" >
 
             <!-- Card content -->
-            <div class="card-body m-4">
+            <div class="card-body m-4 " id="vision-card"  style="box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);">
 
               <div class="media">
                 <div class="media-body">
-                  <h4 class="dark-grey-text mb-3  text-center font-weight-bold">Our Mission</h4>
-                  <p class="font-weight-light text-muted mb-0" style="font-size: 1.2em;">We provide quality transport services using current and well maintained vehicles, experienced and committed staff to our clients.</p>
+                  <h4 class=" mb-3  text-center font-weight-bold" >Our Mission</h4>
+                  <p class="font-weight-light  mb-0" style="font-size: 1.2em;">We provide quality transport services using current and well maintained vehicles, experienced and committed staff to our clients.</p>
                 </div>
               </div>
 
@@ -417,11 +422,11 @@
             <li class="timeline-element">
               <div class="card">
                 <div class="card-header white">
-                  <h3 class="text-center text-white" data-aos="fade-right"><span style="font-size: 25px;">#1 Heading for service</span></h3>
+                  <h3 class="text-center text-white" data-aos="fade-right"><span style="font-size: 25px;"> Service 1️⃣</span></h3>
                 </div>
-                <div class="card-body">
-                  <p class="lead text-right w-responsive mx-auto text-muted mt-4 pt-2 mb-5">
-                    <span style="font-size: 15px;">We provide luxurious Toyota land cruiser vehicles for clients such as NGOs or individuals for a short period of time embarking on field trips within Ghana.  This comes with an experience dedicated driver, free Wi-Fi, and 500ml bottled water for guest
+                <div class="card-body" >
+                  <p class="lead text-center w-responsive mx-auto mt-4 pt-2 mb-5">
+                    <span style="font-size: 15px; ">We provide luxurious Toyota land cruiser vehicles for clients such as NGOs or individuals for a short period of time embarking on field trips within Ghana.
                      </span>
                   </p>
                   <img src="img/tc.jpg" class="img-fluid" alt="Sample project image" />
@@ -432,13 +437,13 @@
             <li class="timeline-element">
               <div class="card">
                 <div class="card-header white">
-                  <h3 class="text-center text-white"><span style="font-size: 25px;">#2 Heading for service</span></h3>
+                  <h3 class="text-center text-white"><span style="font-size: 25px;">Service 2️⃣</span></h3>
                 </div>
                 <div class="card-body">
-                  <p class="lead text-right w-responsive mx-auto text-muted mt-4 pt-2 mb-5">
+                  <p class="lead text-center w-responsive mx-auto  mt-4 pt-2 mb-5">
                     <span style="font-size: 15px;">	We provide mini-van or coaster bus services to organizations, groups or individuals embarking on trips, business, pleasure or ceremonial activities within Ghana</span>
                   </p>
-                  <img src="img/mini.jpg" class="img-fluid" alt="Sample project image" />
+                  <img src="img/tc.jpg" class="img-fluid" alt="Sample project image" />
                 </div>
               </div>
             </li>
@@ -446,13 +451,20 @@
              <li class="timeline-element">
               <div class="card">
                 <div class="card-header white">
-                  <h3 class="text-center text-white"><span style="font-size: 25px;">#3 Heading for service</span></h3>
+                  <h3 class="text-center text-white"><span style="font-size: 25px;"> Service 3️⃣</span></h3>
                 </div>
                 <div class="card-body">
-                  <p class="lead text-right w-responsive mx-auto text-muted mt-4 pt-2 mb-5">
+                  <p class="lead text-center w-responsive mx-auto mt-4 pt-2 mb-5">
                     <span style="font-size: 15px;">	We provide luxurious vehicles for weddings, funerals, meetings.</span>
                   </p>
-                  <img src="./img/lx.jpg" class="img-fluid" alt="Sample project image" />
+                  <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay
+        muted loop  style="width:22rem;">
+
+
+        <source src="img/bgvideo.mp4" type="video/mp4" >
+
+                </video>
+      
                 </div>
               </div>
             </li>
@@ -488,19 +500,19 @@
 
   <div class="container py-5 my-5">
     <section class="p-md-3 mx-md-5 text-center text-lg-left">
-      <h2 class="text-center text-white mx-auto font-weight-bolder mb-5 pb-2">Why  Us?</h2>
+      <h2 class="text-center text-white mx-auto font-weight-bold mb-5 pb-2">Why  Us?</h2>
       <div class="row">
         <div class="col-lg-4 mb-4">
           <div class="card text-center">
             <div class="card-header white">
-              <h4 class="h5  my-1" style="color:#fff;">Lorem</h4>
+              <h4 class="h5  my-1" style="color:#fff;">📶FREE WIFI 📶</h4>
             </div>
             <div>
             </div>
             <div class="card-body">
-              <p class="card-text">
+              <p>
                 <br>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit.  accusantium quis doloremque explicabo.
+                The car’s WiFi simply piggybacks off the data you’re already using on your phone. It uses this connection to create a hotspot you can use throughout the drive.
                 <br>
                 <br>
               </p>
@@ -511,14 +523,13 @@
         <div class="col-lg-4 mb-4">
           <div class="card text-center blue lighten-5">
             <div class="card-header">
-              <h4 class="h5  my-1" style="color:#fff;">Lorem</h4>
+              <h4 class="h5  my-1" style="color:#fff;"> 👨🏿EXPERIENCED DRIVERS</h4>
             </div>
             <div>
             </div>
             <div class="card-body">
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati maiores repudiandae est quod nobis quae itaque quis ipsa odit? Doloremque vel odio animi aliquam mollitia fuga iusto magni inventore eveniet!
-              </p>
+              <p>
+                A professional driver has decades more of experience on the road. He has driven many types of vehicles; cars, SUVs, trucks, with or without towing, in many different road and weather conditions. To book a driver for at <span class="text-primary">3AN,</span>  to drive your vehicle is a wise decision for a safe journey.              </p>
             </div>
             <div class="card-footer"></div>
           </div>
@@ -526,16 +537,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card text-center">
             <div class="card-header white">
-              <h4 class="h5  my-1" style="color:#fff;">Lorem</h4>
+              <h4 class="h5  my-1" style="color:#fff;">🍶💦500ml BOTTLED WATER💦🍶</h4>
             </div>
             <div>
 
             </div>
             <div class="card-body">
-              <p class="card-text">
+              <p>
                 <br>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate aut, fugiat itaque voluptatum quidem ad distinctio possimus perspiciatis sed modi voluptates earum doloremque dicta obcaecati ducimus amet beatae accusantium facilis.
-              </p>
+                Fresh clean drinking water is healthy and needed for daily life for us to function properly and also helps fight infection .This is why at <span class="text-primary">3AN,</span> it is particularly important during travel</p>
             </div>
             <div class="card-footer white"> </div>
           </div>
@@ -549,12 +559,15 @@
 
   
   <div class="position-relative">
+    
     <svg data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"
       class="svg" style=" height: 150px; width: 100%; fill: rgb(17, 117, 112); opacity: 0.8; transform: rotateX(200deg);">
       <path
         d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.77,72,985.66,100.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z">
       </path>
     </svg>
+
+    
   </div>
   
   
@@ -563,7 +576,8 @@
   <footer class="page-footer font-small darken-5" style="background-color: #128686;">
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3" style="font-size: 1.2rem;">© 2022 Copyright:
-      <a href="#">ThreeanCompany</a>
+      <a href="#">3ANCompany</a>
+
     </div>
     <!-- Copyright -->
 

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/mdb.min.css">
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/9473160d0d.js" crossorigin="anonymous"></script>
 
     <style>
          .top-nav-collapse {
@@ -83,64 +84,79 @@
 
 
 
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar ">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
 
     <div class="container">
 
-        <a class="navbar-brand" href="#">ThreeanCompany</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
-            <ul class="navbar-nav mr-auto smooth-scroll">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
+      <a class="navbar-brand" href="#"><img src="/img/Untitled design.png" alt="" width="48px"></a>
 
 
-            </ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <ul class="navbar-nav nav-flex-icons">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fab fa-facebook-f light-green-text-2"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fab fa-twitter light-green-text-2"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fab fa-instagram light-green-text-2"></i>
-                    </a>
-                </li>
-            </ul>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
-        </div>
+        <ul class="navbar-nav mr-auto smooth-scroll">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          
+        </ul>
+
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fab fa-facebook-square light-green-text-2"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fab fa-whatsapp-square light-green-text-2"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa fa-envelope light-green-text-2"></i>
+            </a>
+          </li>
+        </ul>
+
+      </div>
 
     </div>
 
-</nav>
+  </nav>
 
   <main >
+    
     <div class="container1">
       
+      <h3 class="font-weight-normal text-uppercase    text-center">CONTACT US</h3>
+      <!-- Section heading -->
+      <h6 class="font-weight-bold text-dark mb-4 pb-2 text-center">We are always available talk to us now!</h6>
+      
+
+
       <form action="/action_page.php">
         <label for="fname">Full Name</label>
         <input type="text" id="name" name="name" placeholder="Your full name..." required>
           <br>
-        <label for="fname">Email</label>
+        <label for="mail">Email</label>
         <input type="email" id="email" name="email" placeholder="Your email..." required>
 
-        <label for="lname">Subject</label>
+        <label for="phone">Phone</label>
+        <input type="email" id="phone" name="phone" placeholder="Enter phone number..." required>
+
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location" placeholder="Enter location..." required>
+
+       
+
+        <label for="subject">Subject</label>
         <input type="text" id="subject" name="subject" placeholder="Message subject.." required>
     
        
@@ -150,6 +166,37 @@
     
         <input type="submit" value="Send Message"  id="contact-us" class="btn btn-primary-outline">
       </form>
+
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4 mb-3 p-4 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">FACEBOOK</h5>
+            <p class="card-text">Check our social media for more updates</p>
+            <i class="fab fa-facebook-square light-green-text-2 " style="font-size: 4rem;"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">CALL/TEXT US</h5>
+            <p class="card-text">+233(26-675-​8586).</p>
+            <i class="fa-sharp fa-solid fa-phone  light-green-text-2 " style="font-size: 4rem;"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 p-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">MAIL US</h5>
+            <p class="card-text ">THREEANCOMPANY@GMAIL.COM</p>
+            <i class="fa-solid fa-envelope light-green-text-2 " style="font-size: 4rem;"></i>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
