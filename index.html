@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Material Design Bootstrap -->
   <link rel="stylesheet" href="css/mdb.min.css">
-  
+  <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,6 +58,8 @@
 
     .navbar .nav-link {
       color: #fff !important;
+      font-weight: bolder;
+      font-size: 1rem;
     }
 
     
@@ -171,6 +173,7 @@
     .fas {
       color: #340b38;
     }
+    
   </style>
 
 
@@ -182,7 +185,7 @@
 
       <div class="container">
 
-        <a class="navbar-brand" href="#">ThreeanCompany</a>
+        <a class="navbar-brand" href="#"><img src="/img/Untitled design.png" alt="" width="50px"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -197,7 +200,7 @@
               <a class="nav-link" href="#about-us" data-offset="90">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="booking.html" data-offset="90">Booking</a>
+              <a class="nav-link"   href="booking.html" data-offset="90"  style="background-color:rgba(9, 41, 68, 0.884);">Book Now</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="gallery.html" data-offset="90">Gallery</a>
@@ -230,17 +233,17 @@
           <ul class="navbar-nav nav-flex-icons">
             <li class="nav-item">
               <a class="nav-link" href="">
-                <i class="fab fa-facebook-f light-green-text-2"></i>
+                <i class="fab fa-facebook-square light-green-text-2"></i>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="">
-                <i class="fab fa-twitter light-green-text-2"></i>
+                <i class="fab fa-whatsapp-square light-green-text-2"></i>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="">
-                <i class="fab fa-instagram light-green-text-2"></i>
+                <i class="fab fa-whatsapp light-green-text-2"></i>
               </a>
             </li>
 
@@ -259,8 +262,14 @@
 
       <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay
         muted loop>
-        <source src="img/backgroundcar.mp4" type="video/mp4">
+
+
+        <source src="img/bgvideo.mp4" type="video/mp4">
+
+
+      
       </video>
+
 
       <!-- Mask & flexbox options-->
       <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
@@ -278,17 +287,11 @@
               <br>
               <br>
               <br>
+            
               <br>
               <br>
               <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <h4 class="display-5  white-text mb-0 pt-md-5 pt-5" style="font-family:  cursive; " > <marquee>........Welcome To ThreeanCompany...........</marquee></h4>
+              <h4 class="display-3 white-text mb-0 pt-md-5 pt-5" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" > <marquee>...🚗.....WELCOME TO 👌3️⃣🅰️N COMPANY.....🚗......</marquee></h4>
               <hr class="hr-light my-4 w-75">
             </div>
             <!--Grid column-->
@@ -310,6 +313,7 @@
 </head>
 
 <body>
+  <div class="about-page">
 
   <div class="container my-4" id="about-us">
     <!--Section: Content-->
@@ -317,10 +321,10 @@
 
       <!-- Section heading -->
       
-          <h4 class="text-center font-weight-bold"><i class="fas fa-ribbon"></i>About Us<i class="fas fa-ribbon"></i></h4>
+          <h2 class="text-center text-white font-weight-bold"><i class=" wowFadeIn fas fa-ribbon text-white p-2"></i>About Us<i class="fas fa-ribbon text-white p-2"></i></h2>
       <!-- Section description -->
-      <p class="lead text-center w-responsive mx-auto text-muted mt-4 pt-2 mb-5" >
-        <span style="font-size: 17px;">3AN car rentals is a company incorporated in Ghana which provide reliable
+      <p class="lead text-center text-white w-responsive mx-auto  mt-4 pt-2 mb-5" >
+        <span style="font-size: 1.2rem;">3AN car rentals is a company incorporated in Ghana which provide reliable
            vehicles for all your travels within Ghana. We are rental company with four years of experience in car 
            rental business focusing on serving a myriad of clients from individuals to corporates.
             We are experience with dedicated personnel who respond to the needs of client. We aspire to provide current model 
@@ -348,13 +352,13 @@
           <a href="#!" class="card hoverable">
 
             <!-- Card content -->
-            <div class="card-body">
+            <div class="card-body m-4">
 
               <div class="media">
                 <div class="media-body">
                   <i class="fas-light fa-diploma"></i>
-                  <h5 class="dark-grey-text mb-3 text-center font-weight-bold">Our Vision</h5>
-                  <p class="font-weight-light text-muted mb-0">we aspire to be the leading car rental company providing excellence services to range of customers in a safe and comforting manner</p>
+                  <h4 class="dark-grey-text mb-3  text-center font-weight-bold">Our Vision</h4>
+                  <p class="font-weight-light text-dark mb-0" style="font-size: 1.2em;">We aspire to be the leading car rental company providing excellence services to range of customers in a safe and comforting manner</p>
                 </div>
               </div>
 
@@ -373,12 +377,12 @@
           <a href="#!" class="card hoverable">
 
             <!-- Card content -->
-            <div class="card-body">
+            <div class="card-body m-4">
 
               <div class="media">
                 <div class="media-body">
-                  <h5 class="dark-grey-text mb-3 text-center font-weight-bold">Our Mission</h5>
-                  <p class="font-weight-light text-muted mb-0">Is to provide quality transport services using current and well maintained vehicles, experienced and committed staff to our clients.</p>
+                  <h4 class="dark-grey-text mb-3  text-center font-weight-bold">Our Mission</h4>
+                  <p class="font-weight-light text-muted mb-0" style="font-size: 1.2em;">We provide quality transport services using current and well maintained vehicles, experienced and committed staff to our clients.</p>
                 </div>
               </div>
 
@@ -398,13 +402,13 @@
 
 
   </div>
-
+</div>
   <div class="container-fluid z-depth-1 my-5 py-5 px-4 px-lg-0" id="services">
     <!-- Section -->
     <section >
 
-      <h4 class="text-center font-weight-bold" >Our Services</h4>
-      <h6 class="text-center text-muted">3AN car rental provide a wide range of transportation services across the length and breath of Ghana. Our services include.</h6>
+      <h2 class="text-center text-white font-weight-bold" >Our Services</h2>
+      <h6 class="text-center text-white">3AN car rental provide a wide range of transportation services across the length and breath of Ghana. Our services include.</h6>
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <ol class="timeline">
@@ -413,7 +417,7 @@
             <li class="timeline-element">
               <div class="card">
                 <div class="card-header white">
-                  <h3 class="text-center" data-aos="fade-right"><span style="font-size: 25px;">#1 Heading for service</span></h3>
+                  <h3 class="text-center text-white" data-aos="fade-right"><span style="font-size: 25px;">#1 Heading for service</span></h3>
                 </div>
                 <div class="card-body">
                   <p class="lead text-right w-responsive mx-auto text-muted mt-4 pt-2 mb-5">
@@ -428,7 +432,7 @@
             <li class="timeline-element">
               <div class="card">
                 <div class="card-header white">
-                  <h3 class="text-center"><span style="font-size: 25px;">#2 Heading for service</span></h3>
+                  <h3 class="text-center text-white"><span style="font-size: 25px;">#2 Heading for service</span></h3>
                 </div>
                 <div class="card-body">
                   <p class="lead text-right w-responsive mx-auto text-muted mt-4 pt-2 mb-5">
@@ -442,7 +446,7 @@
              <li class="timeline-element">
               <div class="card">
                 <div class="card-header white">
-                  <h3 class="text-center"><span style="font-size: 25px;">#3 Heading for service</span></h3>
+                  <h3 class="text-center text-white"><span style="font-size: 25px;">#3 Heading for service</span></h3>
                 </div>
                 <div class="card-body">
                   <p class="lead text-right w-responsive mx-auto text-muted mt-4 pt-2 mb-5">
@@ -484,7 +488,7 @@
 
   <div class="container py-5 my-5">
     <section class="p-md-3 mx-md-5 text-center text-lg-left">
-      <h2 class="text-center mx-auto font-weight-bold mb-5 pb-2">Why  Us?</h2>
+      <h2 class="text-center text-white mx-auto font-weight-bolder mb-5 pb-2">Why  Us?</h2>
       <div class="row">
         <div class="col-lg-4 mb-4">
           <div class="card text-center">
@@ -556,9 +560,9 @@
   
 
 
-  <footer class="page-footer font-small darken-3" style="background-color: #128686;">
+  <footer class="page-footer font-small darken-5" style="background-color: #128686;">
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2022 Copyright:
+    <div class="footer-copyright text-center py-3" style="font-size: 1.2rem;">© 2022 Copyright:
       <a href="#">ThreeanCompany</a>
     </div>
     <!-- Copyright -->
